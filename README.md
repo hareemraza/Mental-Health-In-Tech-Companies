@@ -20,6 +20,16 @@ We will be answering them one by one, building one upon the other, and finally c
 
 Our dataset, titled “Mental Health in Tech Survey” is obtained from Open Sourcing Mental Illness, LTD. It is based on a single CSV file where each row represents an individual (tech company employee) who was surveyed in 2014 about his/her mental health and its correlation with various attributes.
 
+### Key Steps
+
+Following steps (in order) were involved in the entire process: 
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Machine Learning (KNN Classification)
+- Statistical Inference
+- Presentation
+
 ### Observations and Analysis
 
 Although our data and its intent are thorough and it offers a multi-dimensional approach towards mental health in tech workspaces with categories such as openness about mental health, organizational structure and culture, and differences between mental and physical health, there is still a need for testing a few more important variables when we take mental health into consideration. Interestingly, none of the actual work factors had any significant impact on the mental health of employees. Instead, a lot of other confounding variables that we did not take into consideration could have made an impact.
@@ -28,33 +38,25 @@ We then notice that the dataset had several biases within itself. Demographicall
 
 We also chose the data from 2014 because this survey was one of the first of its kind to report mental health issues in tech organizations. Therefore, it had many important features missing that could impact mental health significantly such as stress and anxiety. Similarly, it was not explicitly asked whether an employee suffers from mental health issues. Therefore, we had to infer it from the features that were available. Today, however, there might be a few changes in trends as this survey is conducted annually, with added features and questions that delve deeper into variables that have a direct impact on mental health. Such recent surveys when compared to those in the past could provide useful findings for both the tech and the medical industry. Similarly, our analysis could offer key insights for variables to consider that could shape future analysis of mental health issues in tech firms.
 
-### Key Steps In the Analysis
-
-- Data Cleaning
-- Exploratory Data Analysis
-- Machine Learning (KNN Classification)
-- Statistical Inference
-- Presentation
-
 ### Files
 
 Following are the main files in this repository along with a short description of each:
 
 - Datasets:
-  - Tech (Main dataset)
-  - Cols (Column descriptions)
+  - Tech.csv (Main dataset)
+  - Cols.csv (Column descriptions)
   - data_tech.pkl (Cleaned data) 
 - Notebooks:
   - DataCleaningAndEDA.ipynb (Stepwise and detailed implementation of data cleaning and in depth analysis)
   - KNN.ipynb (Implementation of KNN classifier and relevant machine learning models)
   - Statistical Inference.ipynb (Implementation of hypothesis testing)
 - Presentation:
-  - Presentation (Presentation slides highlighting the entire process, key findings and final conclusions)
+  - Presentation.pdf (Presentation slides highlighting the entire process, key findings and final conclusions)
   
   
 ### References
 
-The dataset was obtained from [OSMI Mental Health in Tech Survey](https://osmihelp.org/research).
+The dataset was obtained from [OSMI Mental Health in Tech Survey](https://osmihelp.org/research) from the year 2014 (the first every mental health survey in tech companies)
 
   
   
