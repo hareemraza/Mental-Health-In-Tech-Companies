@@ -56,7 +56,6 @@ Following are the main files in this repository along with a short description o
   
 ### References
 
-The dataset was obtained from [OSMI Mental Health in Tech Survey](https://osmihelp.org/research) from the year 2014 (the first every mental health survey in tech companies)
+The dataset was obtained from [OSMI Mental Health in Tech Survey](https://osmihelp.org/research) from the year 2014 (the first ever mental health survey targeted at tech companies)
 
-  
   
