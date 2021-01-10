@@ -38,16 +38,23 @@ We also chose the data from 2014 because this survey was one of the first of its
 
 ### Files
 
+Following are the main files in this repository along with a short description of each:
+
 - Datasets:
   - Tech (Main dataset)
   - Cols (Column descriptions)
+  - data_tech.pkl (Cleaned data) 
 - Notebooks:
-  - MentalHealthInTech.ipynb
+  - DataCleaningAndEDA.ipynb (Stepwise and detailed implementation of data cleaning and in depth analysis)
   - KNN.ipynb (Implementation of KNN classifier and relevant machine learning models)
   - Statistical Inference.ipynb (Implementation of hypothesis testing)
 - Presentation:
-  - Final Presentation (Presentation slides highlighting the entire process, key findings and final conclusions)
+  - Presentation (Presentation slides highlighting the entire process, key findings and final conclusions)
   
   
+### References
+
+The dataset was obtained from [OSMI Mental Health in Tech Survey](https://osmihelp.org/research).
+
   
   
